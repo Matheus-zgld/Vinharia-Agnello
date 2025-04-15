@@ -48,6 +48,9 @@ header nav ul {
     color: #84033b;
 }
 
+header nav ul li:hover{
+    border-bottom: 2px solid #84033b;
+}
 
 .header_btn,
 .catalogo_btn {
@@ -74,6 +77,16 @@ header nav ul {
 .catalogo_btn:hover {
     background-color: #84033b;
     color: black;
+}
+
+.header_btn_lgn:hover{
+    background-color: black;
+    color: #84033b;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: #84033b;
 }
 
 #logo {

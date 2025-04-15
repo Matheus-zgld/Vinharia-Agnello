@@ -9,22 +9,20 @@
 <body>
     <header>
         <div>
-            <img src="../assets/imgs/logo.png" alt="Logo da Vinharia Agnello" id="logo" style="pointer-events: none; user-select: none;">
+            <img src="../assets/imgs/logo.png" alt="Logo da Vinharia Agnello" id="logo">
         </div>
         <nav>
             <ul>
-                <li>
-                    <button class="header_btn" onclick="window.location.href='../../index.html'">Página Inicial</button>
-                </li>
+                <a href="../../index.html"><li>Página Inicial</li></a>
                 <li>Catálogo</li>
                 <li>Galeria</li>
-                <li>Assinaturas</li>
+                <a href="./assinaturas.html"><li>Assinaturas</li></a>
                 <li>Sobre Nós</li>
             </ul>
         </nav>
         <div style="justify-content: right;">
-            <button class="header_btn_lgn" onclick="window.location.href='../../src/pages/login.html'">Login</button>
-            <button class="header_btn" onclick="window.location.href='../../src/pages/cadastro.html'">Cadastro</button>
+            <a href="./login.html"><button class="header_btn_lgn">Login</button></a>
+            <a href="./cadastro.html"><button class="header_btn">Cadastro</button></a>
         </div>
     </header>
 

@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Cabeçalho (mesmo estilo do home.css) */
+header {
+    width: 100%;
+    height: 5vw;
+    background-color: black;
+    padding: 0.5vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+}
+
+header div {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+header nav {
+    width: 66%;
+    height: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2vw;
+    height: 100%;
+    color: #84033b;
+}
+
+header nav ul li:hover {
+    border-bottom: 2px solid #84033b;
+}
+
+.header_btn,
+.catalogo_btn {
+    padding: 0.3vw 1vw;
+    font-size: 1.2vw;
+    border-radius: 20px;
+    margin: 0 0.2vw;
+    background-color: black;
+    color: #84033b;
+    border: 2px solid #84033b;
+}
+
+.header_btn:hover,
+.catalogo_btn:hover {
+    background-color: #84033b;
+    color: black;
+}
+
+#logo {
+    width: 50%;
+}
+
+/* Conteúdo principal */
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6vw; /* Para não ficar encoberto pelo header fixo */
+}
+
+/* Container do formulário */
+.cadastro-container {
+    background: rgba(20, 20, 20, 0.95);
+    border: 2px solid #84033b;
+    border-radius: 2vw;
+    padding: 3vw 4vw;
+    box-shadow: 0 0 20px #84033b44;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 2vw auto;
+}
+
+/* Título do formulário */
+.cadastro-container h1 {
+    color: #84033b;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+/* Formulário */
+.cadastro-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cadastro-container label {
+    color: #84033b;
+    font-weight: bold;
+    font-size: 1vw;
+    margin-bottom: 0.5vw;
+}
+
+.cadastro-container input {
+    width: 100%;
+    padding: 0.7vw;
+    border-radius: 0.5vw;
+    border: 1px solid #84033b;
+    background: #222;
+    color: #fff;
+    font-size: 1vw;
+    margin-bottom: 1.2vw;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.cadastro-container input:focus {
+    border: 2px solid #84033b;
+}
+
+/* Botões do formulário */
+.cadastro-container button {
+    padding: 0.5vw 1.5vw;
+    font-size: 1.1vw;
+    border: 2px solid #84033b;
+    border-radius: 1vw;
+    background-color: black;
+    color: #84033b;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.cadastro-container button:hover {
+    background-color: #84033b;
+    color: black;
+}
+
+/* Espaçamento entre botões */
+.cadastro-container button + button {
+    margin-left: 2vw;
+}
+
+/* Rodapé (mesmo estilo do home.css) */
+footer {
+    width: 100%;
+    height: 20vw;
+    background-color: black;
+    color: #84033b;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    width: 80%;
+}

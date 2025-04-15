@@ -1,18 +1,70 @@
-<h1>Faça seu Cadastro aqui</h1>
-<form action="">
-    <label for="Nome">Nome</label>
-    <input type="text" id="Nome" name="Nome" required><br><br>
-    <label for="Idade">Idade</label>
-    <input type="number" id="Idade" name="Idade" required><br><br>
-    <label for="Telefone">Telefone</label>
-    <input type="tel" id="Telefone" name="Telefone" required><br><br>
-    <label for="Endereco">Endereço</label>
-    <input type="text" id="Endereco" name="Endereco" required><br><br>
-    <label for="Email">Email</label>
-    <input type="email" id="Email" name="Email" required><br><br>
-    <label for="Senha">Senha</label>
-    <input type="password" id="Senha" name="Senha" required><br><br>
-    <button type="submit"> Enviar </button>
-    <br><br>
-    <button type="reset"> RESETAR </button>
-</form>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../assets/imgs/logo.png" alt="Logo da Vinharia Agnello" id="logo" style="pointer-events: none; user-select: none;">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <button class="header_btn" onclick="window.location.href='../../index.html'">Página Inicial</button>
+                </li>
+                <li>Catálogo</li>
+                <li>Galeria</li>
+                <li>Assinaturas</li>
+                <li>Sobre Nós</li>
+            </ul>
+        </nav>
+        <div style="justify-content: right;">
+            <button class="header_btn">Cadastro</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="cadastro-container">
+            <h1>Faça seu Cadastro</h1>
+            <form>
+                <label for="Nome">Nome</label>
+                <input type="text" id="Nome" name="Nome" required>
+
+                <label for="Idade">Idade</label>
+                <input type="number" id="Idade" name="Idade" required>
+
+                <label for="Telefone">Telefone</label>
+                <input type="tel" id="Telefone" name="Telefone" required>
+
+                <label for="Endereco">Endereço</label>
+                <input type="text" id="Endereco" name="Endereco" required>
+
+                <label for="Email">Email</label>
+                <input type="email" id="Email" name="Email" required>
+
+                <label for="Senha">Senha</label>
+                <input type="password" id="Senha" name="Senha" required>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Resetar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <b>Vinharia Agnello</b> – Onde o vinho encontra a tradição. <br><br>
+            Na Agnello, cada garrafa conta uma história. Selecionamos rótulos nacionais e importados com curadoria criteriosa, unindo paixão, tradição e excelência em cada detalhe. Seja para celebrar momentos especiais ou simplesmente apreciar um bom vinho, nossa missão é oferecer experiências que encantam paladares. <br><br>
+            <b>Contato:</b> (11) 1234-5678 <br>
+            <b>Endereço:</b> Rua São Paulo, 123, São Paulo <br><br>
+            <b>Agnello. Vinho com identidade.</b>
+        </p>
+    </footer>
+</body>
+</html>

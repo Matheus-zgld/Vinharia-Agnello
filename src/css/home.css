@@ -111,7 +111,7 @@ header nav ul a{
 }
 
 .secao3{
-    top: 55vw;
+    top: 60vw;
 }
 
 .secao4{
@@ -189,6 +189,17 @@ header nav ul a{
     width: 50vw;
     top: 5vw;
     background-image: url(../assets/imgs/garrafa_vinho.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#taca_vinho{
+    position: absolute;
+    height: 17vw;
+    width: 17vw;
+    top: 65vw;
+    background-image: url(../assets/imgs/animacao_vinho2.gif);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

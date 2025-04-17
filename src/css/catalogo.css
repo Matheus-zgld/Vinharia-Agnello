@@ -1,90 +1,158 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color: rgb(29, 27, 27);
+    background-color: rgb(23, 22, 22);
 }
-
-/*Header*/
-
+/* header */
 header{
     width: 100%;
-    height: 5vw;
+    height: 10vh;
     background-color: black;
-    padding: 0.5vw;
-    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    position: fixed;
-}
-
-header div{
-    width: 33%;
-    height: 100%;
-    display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
-}
-
-header nav{
-    width: 66%;
-    height: 100%;
-}
-
-header nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2vw;
-    height: 100%;
     color: #84033b;
+    font-size: 1.2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    z-index: 1;    
 }
-
-header nav ul li:hover{
+header nav{
+    display: flex;
+}
+header nav a{
+    margin: 2vw;
+    color: #84033b;
+    text-decoration: none;
+    border-bottom: 2px solid transparent; /*isto serve para que os itens da nav não subam quando colocamos o mouse em cima */
+    padding-top: 2px; /*em teoria serve para corrigir o aumento de border-bottom*/
+}
+header nav a:hover{
     border-bottom: 2px solid #84033b;
 }
-
-.header_btn,.catalogo_btn{
-    padding: 0.3vw 1vw;
-    font-size: 1.2vw;
-    border-radius: 20px;
-    margin: 0vw 0.2vw;
+header div a button{
     background-color: black;
     color: #84033b;
     border: 2px solid #84033b;
-}
-
-.header_btn_lgn {
-    padding: 0.3vw 1vw;
     font-size: 1.2vw;
     border-radius: 20px;
-    margin: 0 0.2vw;
-    background-color: #84033b;
-    color: black;
-    border: 2px solid #84033b;
+    padding: 0.3vw 1vw;
 }
-
-.header_btn_lgn:hover{
-    background-color: black;
-    color: #84033b;
-}
-
-header nav ul a{
-    text-decoration: none;
-    color: #84033b;
-}
-
-.header_btn:hover,.catalogo_btn:hover{
+header div a button:hover{
     background-color: #84033b;
     color: black;
 }
-
 #logo{
-    width: 50%;
+    width: 13%;
 }
+
 
 /* section */
+section {
+    color:white;
+    padding-top: 10vh;/* eu coloquei por causa do position fixed do header */
+    color: #720d39;
+}
+section h1{
+    font-size: 3vw;
+    padding-top: 10px;
+    text-align: center;
+}
+section .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    position: relative;
+    z-index: 0;
+    
+}
+section .container .produto{
+    width: 700px;
+    height: 600px;
+    background-color: rgb(11, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5vw;
+    border-radius: 20px;
+    position: relative;
+}
+section .container .imgVinho1{
+    width: 650px;
+    position: absolute;
+    right: 230px;
+}
+section .container .imgVinho2{
+    width: 450px;
+    position: absolute;
+    right: 300px;
+}
+section .container .imgVinho3{
+    width: 400px;
+    position: absolute;
+    right: 300px;
+}
+section .container .imgVinho4{
+    width: 460px;
+    position: absolute;
+    right: 330px;
+}
+section .container .imgVinho5{
+    width: 400px;
+    position: absolute;
+    right: 360px;
+}
+section .container .imgVinho6{
+    width: 500px;
+    position: absolute;
+    right: 300px;
+}
+section .container .descricao{
+    position: absolute;
+    width: 445px;
+    height: 450px;
+    left: 255px;
+}
+section .container .title{
+    font-family: 'Arial Black', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    padding-bottom: 7px;
+    
+}
+section .container .country{
+    font-family: sans-serif;
+    font-size: smaller;
+    padding-bottom: 25px;
 
+}
+ul{
+    list-style-position: inside;
+    font-size: large;
+    color: #720d39;
+    font-weight: 700;
+}
+ul li{
+    padding:7px 0px 7px 6px;
+}
+
+footer{
+    width: 100%;
+    height: 20vw;
+    background-color: black;
+    color: #84033b;
+    font-size: 1.2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p{
+    width: 80%;
+}

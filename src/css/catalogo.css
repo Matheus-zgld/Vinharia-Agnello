@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(23, 22, 22);
+    background-color: black;
 }
 /* header */
 header{
@@ -76,7 +76,7 @@ section .container{
 section .container .produto{
     width: 800px;
     height: 600px;
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(33, 33, 33);
     display: flex;
     justify-content: space-between;
     align-items: center;

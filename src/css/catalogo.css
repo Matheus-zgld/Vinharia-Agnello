@@ -24,7 +24,7 @@ header nav{
     display: flex;
 }
 header nav a{
-    margin: 2vw;
+    margin: 1.85vw;
     color: #84033b;
     text-decoration: none;
     border-bottom: 2px solid transparent; /*isto serve para que os itens da nav não subam quando colocamos o mouse em cima */
@@ -40,13 +40,29 @@ header div a button{
     font-size: 1.2vw;
     border-radius: 20px;
     padding: 0.3vw 1vw;
+    cursor: pointer;
 }
-header div a button:hover{
+/* o codigo em baixo serve para deixar igual aos outros sites */
+/* header div .btnLogin{
     background-color: #84033b;
     color: black;
 }
+header div .btnRegister:hover{
+    background-color: #84033b;
+    color: black;
+}
+header div .btnLogin:hover{
+    background-color: black;
+    color: #84033b;
+}  */
+.btn:hover{
+    background-color: #84033b;
+    color:black;
+}
+
 #logo{
-    width: 13%;
+    width: 12.8%;
+    padding-left: 0.5vw;
 }
 
 

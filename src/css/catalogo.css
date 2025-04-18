@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(23, 22, 22);
+    background-image: url(../assets/imgs/loja_vinhos4k.png);
 }
 /* header */
 header{
@@ -55,10 +55,16 @@ section {
     color:white;
     padding-top: 10vh;/* eu coloquei por causa do position fixed do header */
     color: #720d39;
+    background-color: rgba(0, 0, 0, 0.372);
+}
+section .tituloPrincipal{
+    margin: 10px auto auto auto;
+    border-radius: 20px;
+    width: 30vw;
+    background-color: rgba(0, 0, 0, 0.889);
 }
 section h1{
     font-size: 3vw;
-    padding-top: 10px;
     text-align: center;
 }
 section .container{
@@ -70,57 +76,29 @@ section .container{
     
 }
 section .container .produto{
-    width: 700px;
+    width: 800px;
     height: 600px;
-    background-color: rgb(11, 10, 10);
+    background-color: rgba(15, 13, 13, 0.809);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 1.5vw;
     border-radius: 20px;
     position: relative;
 }
-section .container .imgVinho1{
-    width: 650px;
-    position: absolute;
-    right: 230px;
-}
-section .container .imgVinho2{
-    width: 450px;
-    position: absolute;
-    right: 300px;
-}
-section .container .imgVinho3{
-    width: 400px;
-    position: absolute;
-    right: 300px;
-}
-section .container .imgVinho4{
-    width: 460px;
-    position: absolute;
-    right: 330px;
-}
-section .container .imgVinho5{
-    width: 400px;
-    position: absolute;
-    right: 360px;
-}
-section .container .imgVinho6{
-    width: 500px;
-    position: absolute;
-    right: 300px;
-}
+
 section .container .descricao{
-    position: absolute;
-    width: 445px;
-    height: 450px;
-    left: 255px;
+    padding-right: 15px;
+    margin-bottom: 150px;
+    width: 500px;
+    height: 380px;
+    
 }
 section .container .title{
     font-family: 'Arial Black', sans-serif;
     font-weight: bold;
     font-style: italic;
-    font-size: x-large;
+    font-size: xx-large;
     padding-bottom: 7px;
     
 }
@@ -128,12 +106,18 @@ section .container .country{
     font-family: sans-serif;
     font-size: smaller;
     padding-bottom: 25px;
-
+}
+section .container .imgVinho{
+    margin-left: 50px;
+}
+section .container .descricao{
+    font-size: large;
+    color: #720d39;
+    font-weight: 700;
 }
 ul{
     list-style-position: inside;
     font-size: large;
-    color: #720d39;
     font-weight: 700;
 }
 ul li{

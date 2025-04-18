@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../assets/imgs/loja_vinhos4k.png);
+    background-color: rgb(23, 22, 22);
 }
 /* header */
 header{
@@ -52,16 +52,14 @@ header div a button:hover{
 
 /* section */
 section {
-    color:white;
     padding-top: 10vh;/* eu coloquei por causa do position fixed do header */
     color: #720d39;
-    background-color: rgba(0, 0, 0, 0.372);
 }
 section .tituloPrincipal{
     margin: 10px auto auto auto;
     border-radius: 20px;
     width: 30vw;
-    background-color: rgba(0, 0, 0, 0.889);
+    background-color: rgba(0, 0, 0, 0);
 }
 section h1{
     font-size: 3vw;
@@ -78,7 +76,7 @@ section .container{
 section .container .produto{
     width: 800px;
     height: 600px;
-    background-color: rgba(15, 13, 13, 0.809);
+    background-color: rgba(0, 0, 0, 0.87);
     display: flex;
     justify-content: space-between;
     align-items: center;

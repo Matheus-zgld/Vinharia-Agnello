@@ -9,7 +9,7 @@ body{
 /* header */
 header{
     width: 100%;
-    height: 10vh;
+    height: 7vh;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -21,14 +21,16 @@ header{
     z-index: 1;    
 }
 header nav{
+    width: 49.5%;
     display: flex;
+    justify-content: space-around;
 }
 header nav a{
-    margin: 1.85vw;
-    color: #84033b;
+    
+    color: #fff;
     text-decoration: none;
     border-bottom: 2px solid transparent; /*isto serve para que os itens da nav não subam quando colocamos o mouse em cima */
-    padding-top: 2px; /*em teoria serve para corrigir o aumento de border-bottom*/
+    /*em teoria serve para corrigir o aumento de border-bottom*/
 }
 header nav a:hover{
     border-bottom: 2px solid #84033b;
@@ -70,7 +72,7 @@ header div .btnLogin:hover{
 section {
     color:white;
     padding-top: 10vh;/* eu coloquei por causa do position fixed do header */
-    color: #720d39;
+    color: #a80d50;
     background-color: rgba(0, 0, 0, 0.372);
 }
 section .tituloPrincipal{
@@ -94,7 +96,7 @@ section .container{
 section .container .produto{
     width: 800px;
     height: 600px;
-    background-color: rgba(15, 13, 13, 0.809);
+    background-color: rgba(19, 18, 18, 0.809);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,7 +130,7 @@ section .container .imgVinho{
 }
 section .container .descricao{
     font-size: large;
-    color: #720d39;
+    color: #a80d50;
     font-weight: 700;
 }
 ul{

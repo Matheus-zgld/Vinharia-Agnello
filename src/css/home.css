@@ -316,6 +316,12 @@ header nav ul a{
     align-items: center;
     padding: 0vw 1vw;
     border-top: 2px solid #84033b;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.noticia_info h3{
+    font-size: 1vw;
 }
 
 .noticia_info button{
@@ -337,7 +343,7 @@ header nav ul a{
 .nt1, .nt2, .nt3{
     background-image: url(../assets/imgs/noticia1.jpeg);
     background-position: top;
-    background-size: 100% 80%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 

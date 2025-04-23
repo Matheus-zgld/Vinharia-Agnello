@@ -20,7 +20,7 @@ A empresa já possui um ERP de controlo interno, mas a construção do portal re
    - Apresenta a Vinheria Agnello com seu histórico, atendimento especializado e diferenciais. Inclui notícias sobre vinhos, acesso rápido ao catálogo, planos de assinatura e login. Foco em engajamento e apresentação da marca.
 
  # Catálogo de Vinhos
-   - Exibe todos os vinhos à venda com filtros de tipo, região, uva, preço, entre outros. Cada vinho tem imagem, descrição e link para detalhes. Facilita a busca e navegação do usuário.
+   - Exibe todos os vinhos à venda com filtros de tipo, região, uva, entre outros. Cada vinho tem imagem, descrição e link para detalhes. Facilita a busca e navegação do usuário.
    
  # Galeria da Vinheria
    - Versão visual da casa — explore imagens amplas e estilizadas dos ambientes da vinheria, destacando sua arquitetura, decoração e atmosfera única. Sinta o clima do espaço antes mesmo de visitar.

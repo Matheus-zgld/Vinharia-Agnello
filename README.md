@@ -22,8 +22,8 @@ A empresa já possui um ERP de controlo interno, mas a construção do portal re
  # Catálogo de Vinhos
    - Exibe todos os vinhos à venda com filtros de tipo, região, uva, preço, entre outros. Cada vinho tem imagem, descrição e link para detalhes. Facilita a busca e navegação do usuário.
    
- # Galeria de Vinhos
-   - Versão visual do catálogo, com imagens grandes e layouts estilizados, contendo seu nome e tipo do vinho. Acesso direto ao produto ao clicar.
+ # Galeria da Vinheria
+   - Versão visual da casa — explore imagens amplas e estilizadas dos ambientes da vinheria, destacando sua arquitetura, decoração e atmosfera única. Sinta o clima do espaço antes mesmo de visitar.
 
  # Assinaturas
    - Página que explica os planos de assinatura mensal de vinhos. Cada plano inclui detalhes como quantidade, tipos de vinho, valor e benefícios. Botão para assinar com integração ao pagamento.

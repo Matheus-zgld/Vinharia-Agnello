@@ -371,3 +371,13 @@ footer{
 footer p{
     width: 80%;
 }
+
+#video{
+    background-color: black;
+    padding:2vw;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

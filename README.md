@@ -29,7 +29,7 @@ A empresa já possui um ERP de controlo interno, mas a construção do portal re
    - Página que explica os planos de assinatura mensal de vinhos. Cada plano inclui detalhes como quantidade, tipos de vinho, valor e benefícios. Botão para assinar com integração ao pagamento.
 
  # Sobre Nós
-   - Conta a história da vinheria e seus fundadores, destacando o atendimento personalizado e o cuidado com os vinhos. A página cria uma conexão emocional com o usuário.
+   - Conta a história dos fundadores da vinheria, destacando o atendimento personalizado e o cuidado com os vinhos. A página cria uma conexão emocional com o usuário e demonstra um pouco da história, trajetória e finalidade do serviço.
 
  # Login/Cadastro
    - Página de login e cadastro para os clientes, com campos para os usuários se identificarem e/ou criarem uma conta.

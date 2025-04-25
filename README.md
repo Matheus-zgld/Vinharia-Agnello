@@ -17,16 +17,16 @@ A empresa já possui um ERP de controlo interno, mas a construção do portal re
 ## ⚙️ Estrutura do Projeto
 
  # Página Inicial
-   - Apresenta a Vinheria Agnello com seu histórico, atendimento especializado e diferenciais. Inclui notícias sobre vinhos, acesso rápido ao catálogo, planos de assinatura e login. Foco em engajamento e apresentação da marca.
+   - Apresenta a Vinheria Agnello com seu histórico, atendimento especializado e diferenciais. Inclui notícias e vídeo sobre vinhos e acesso rápido ao catálogo. Foco em engajamento e apresentação da marca.
 
  # Catálogo de Vinhos
-   - Exibe todos os vinhos à venda com filtros de tipo, região, uva, entre outros. Cada vinho tem imagem, descrição e link para detalhes. Facilita a busca e navegação do usuário.
+   - Exibe todos os vinhos à venda com filtros de tipo, região, uva, entre outros. Cada vinho tem imagem e descrição própria. Facilita a busca e navegação do usuário.
    
  # Galeria da Vinheria
    - Versão visual da casa — explore imagens amplas e estilizadas dos ambientes da vinheria, destacando sua arquitetura, decoração e atmosfera única. Sinta o clima do espaço antes mesmo de visitar.
 
  # Assinaturas
-   - Página que explica os planos de assinatura mensal de vinhos. Cada plano inclui detalhes como quantidade, tipos de vinho, valor e benefícios. Botão para assinar com integração ao pagamento.
+   - Página que explica os planos de assinatura mensal de vinhos. Cada plano inclui detalhes como quantidade, tipos de vinho, valor e benefícios.
 
  # Sobre Nós
    - Conta a história dos fundadores da vinheria, destacando o atendimento personalizado e o cuidado com os vinhos. A página cria uma conexão emocional com o usuário e demonstra um pouco da história, trajetória e finalidade do serviço.

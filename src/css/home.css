@@ -1,3 +1,5 @@
+@import url(./efeitos.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -214,6 +216,7 @@ header nav ul a{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 2;
 }
 
 #loja_vinhos{

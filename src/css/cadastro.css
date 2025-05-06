@@ -1,3 +1,5 @@
+@import url(./efeitos.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -141,22 +143,7 @@ main {
     margin-bottom: 0.5vw;
 }
 
-.cadastro-container input {
-    width: 100%;
-    padding: 0.7vw;
-    border-radius: 0.5vw;
-    border: 1px solid #84033b;
-    background: #222;
-    color: #fff;
-    font-size: 1vw;
-    margin-bottom: 1.2vw;
-    outline: none;
-    transition: border 0.2s;
-}
 
-.cadastro-container input:focus {
-    border: 2px solid #84033b;
-}
 
 /* Botões do formulário */
 .cadastro-container button {

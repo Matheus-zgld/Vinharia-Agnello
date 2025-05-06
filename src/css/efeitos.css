@@ -42,3 +42,27 @@
     border: 2px solid #84033b;
     transform: scale(1.1,1.1);
 }
+
+/*Assinaturas*/
+.primeira_coluna td:hover .table_img{
+    transition: all 0.4s;
+    transform: rotate(360deg);
+}
+
+.primeira_coluna td:hover p{
+    transition: all 0.4s;
+    transform: scale(1.1,1.1);
+    font-weight: 300;
+}
+
+#container_info{
+    animation-duration: 2s;
+    animation-name: piscar;
+    animation-iteration-count: infinite;
+}
+
+@keyframes piscar {
+    0% {transform: scale(1.1,1.1);}
+    50% {transform: scale(1,1);}
+    100% {transform: scale(1.1,1.1);}
+}

@@ -39,7 +39,7 @@ A empresa já possui um ERP de controlo interno, mas a construção do portal re
 ## ⚙️ Efeitos Visuais do Projeto
 
  # 🌐 Geral
-   - ::selection
+   ####- ::selection####
      O que faz: muda a cor de fundo e do texto ao selecionar texto.
      Pseudo-elemento: ::selection
      Efeito: cor de fundo rosa escuro (#84033b) e texto branco durante seleção.

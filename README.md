@@ -82,17 +82,17 @@ A empresa já possui um ERP de controlo interno, mas a construção do portal re
    - Versão visual da casa — explore imagens amplas e estilizadas dos ambientes da vinheria, destacando sua arquitetura, decoração e atmosfera única. Sinta o clima do espaço antes mesmo de visitar.
 
   # ✍️ Assinaturas
-    - .primeira_coluna td:hover .table_img
+   - .primeira_coluna td:hover .table_img
     O que faz: imagem gira 360° ao passar o mouse sobre a célula.
     Pseudo-classe: :hover
     Efeito: rotate(360deg) com transição.
     
-    - .primeira_coluna td:hover p
+   - .primeira_coluna td:hover p
     O que faz: aumenta o tamanho e muda o peso da fonte do parágrafo.
     Pseudo-classe: :hover
     Efeito: scale(1.1) + font-weight: 300.
     
-    - #container_info + @keyframes piscar
+   - #container_info + @keyframes piscar
     O que faz: animação contínua de pulsar o elemento.
     Tipo: @keyframes
     Efeito: alterna escala de 1.1 → 1 → 1.1 em 2s (loop infinito).

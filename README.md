@@ -36,72 +36,79 @@ A empresa já possui um ERP de controlo interno, mas a construção do portal re
 
 ---
 
-## ⚙️ Efeitos Visuais do Projeto
+# 🎨 Efeitos Visuais do Projeto
 
- # 🌐 Geral
-   - ::selection
-     O que faz: muda a cor de fundo e do texto ao selecionar texto.
-     Pseudo-elemento: ::selection
-     Efeito: cor de fundo rosa escuro (#84033b) e texto branco durante seleção.
+Esta seção descreve todos os efeitos visuais aplicados no projeto, organizados por página. São utilizados pseudo-elementos, pseudo-classes, transformações, transições e animações para melhorar a experiência do usuário.
 
- # 🏠 Página Principal
-   - secao5 h1::first-letter
-     -- O que faz: aumenta a primeira letra dos títulos h1 dentro da seção 5.
-     Pseudo-elemento: ::first-letter
-     Efeito: letra inicial maior (4vw), com pequeno espaçamento à direita.
-   
-   - #logo:hover
-     O que faz: aumenta o tamanho do logo quando o mouse passa por cima.
-     Pseudo-classe: :hover
-     Efeito: scale(1.1) com transição suave de 0.3s.
-   
-   - #video iframe:hover
-     O que faz: aumenta e adiciona sombra ao vídeo (iframe) ao passar o mouse.
-     Pseudo-classe: :hover
-     Efeito: scale(1.2), sombra rosada e transição de 0.4s.
-   
-   - .secaoLista_img:hover
-     O que faz: move a imagem 20px para a direita ao passar o mouse.
-     Pseudo-classe: :hover
-     Efeito: translate(20px) lateral.
+## 🌐 Geral (Aplicado em todo o projeto)
 
- # 🔐 Página de Cadastro/Login
-   - .cadastro-container input
-   O que faz: define estilo básico dos inputs com borda, padding e transição.
-   Transição: aplicada para suavizar efeitos.
-   
-   - .cadastro-container input:focus
-   O que faz: quando o input recebe foco, a borda engrossa e o campo aumenta.
-   Pseudo-classe: :focus
-   Efeito: border: 2px solid + scale(1.1).
+### - Seleção de texto
 
- # Catálogo de Vinhos
-   - Exibe todos os vinhos à venda com filtros de tipo, região, uva, entre outros. Cada vinho tem imagem e descrição própria. Facilita a busca e navegação do usuário.
-   
- # Galeria da Vinheria
-   - Versão visual da casa — explore imagens amplas e estilizadas dos ambientes da vinheria, destacando sua arquitetura, decoração e atmosfera única. Sinta o clima do espaço antes mesmo de visitar.
+- **Pseudo-elemento:** `::selection`
+- **Efeito:** Altera a cor do fundo para `#84033b` (rosa escuro) e a cor do texto para branco ao selecionar qualquer texto na página.
 
-  # ✍️ Assinaturas
-   - .primeira_coluna td:hover .table_img
-    O que faz: imagem gira 360° ao passar o mouse sobre a célula.
-    Pseudo-classe: :hover
-    Efeito: rotate(360deg) com transição.
-    
-   - .primeira_coluna td:hover p
-    O que faz: aumenta o tamanho e muda o peso da fonte do parágrafo.
-    Pseudo-classe: :hover
-    Efeito: scale(1.1) + font-weight: 300.
-    
-   - #container_info + @keyframes piscar
-    O que faz: animação contínua de pulsar o elemento.
-    Tipo: @keyframes
-    Efeito: alterna escala de 1.1 → 1 → 1.1 em 2s (loop infinito).
+## 🏠 Página Principal
 
- # Sobre Nós
-   - Conta a história dos fundadores da vinheria, destacando o atendimento personalizado e o cuidado com os vinhos. A página cria uma conexão emocional com o usuário e demonstra um pouco da história, trajetória e finalidade do serviço.
+### - Estilização de Títulos
 
+#### Primeira letra destacada
+- **Elemento:** `.secao5 h1::first-letter`
+- **Efeito:** Aumenta a primeira letra dos títulos `h1` da seção 5, deixando-a com `font-size: 4vw` e um pequeno `margin-right` de `0.1vw`.
 
+### - Interação com o Logo
 
+#### Escala ao passar o mouse
+- **Elemento:** `#logo:hover`
+- **Efeito:** Aumenta o tamanho do logo com `transform: scale(1.1)` e uma transição suave de `0.3s`.
+
+### - Interação com o Vídeo
+
+#### Zoom e sombra ao passar o mouse
+- **Elemento:** `#video iframe:hover`
+- **Efeitos:**  
+  - Aumenta o vídeo (`scale(1.2)`)  
+  - Adiciona uma `box-shadow` rosa  
+  - Transição suave de `0.4s`
+
+### - Interação com Imagens de Lista
+
+#### Deslocamento lateral
+- **Elemento:** `.secaoLista_img:hover`
+- **Efeito:** Move a imagem 20px para a direita com `transform: translate(20px)`
+
+## 🔐 Página de Cadastro/Login
+
+### - Estilização dos Campos de Input
+
+#### Estilo padrão
+- **Elemento:** `.cadastro-container input`
+- **Efeito:** Campos de texto estilizados com bordas arredondadas, padding, cor de fundo escura, texto branco, e transição suave de `0.2s`.
+
+#### Ao focar no campo
+- **Pseudo-classe:** `:focus`
+- **Efeito:** Aumenta ligeiramente o tamanho do campo com `scale(1.1)` e destaca a borda com `border: 2px solid #84033b`.
+
+## ✍️ Página de Assinaturas
+
+### - Interação com Tabela de Assinaturas
+
+#### Animação nas imagens
+- **Elemento:** `.primeira_coluna td:hover .table_img`
+- **Efeito:** Gira a imagem 360 graus ao passar o mouse, com transição de `0.4s`.
+
+#### Ampliação do texto
+- **Elemento:** `.primeira_coluna td:hover p`
+- **Efeitos:**  
+  - Aumenta o tamanho do texto com `scale(1.1)`  
+  - Reduz o peso da fonte (`font-weight: 300`)  
+  - Transição suave de `0.4s`
+
+### - Animação Contínua
+
+#### Efeito de pulsar
+- **Elemento:** `#container_info`
+- **Animação:** `@keyframes piscar`
+- **Efeito:** O elemento pulsa continuamente, alternando entre `scale(1.1)` e `scale(1)` a cada 2 segundos em um loop infinito.
 ---
 
 ## 👤 Nome dos Integrantes

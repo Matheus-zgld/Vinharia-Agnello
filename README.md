@@ -39,14 +39,14 @@ A empresa já possui um ERP de controlo interno, mas a construção do portal re
 ## ⚙️ Efeitos Visuais do Projeto
 
  # 🌐 Geral
-   ####- ::selection####
+   - ::selection
      O que faz: muda a cor de fundo e do texto ao selecionar texto.
      Pseudo-elemento: ::selection
      Efeito: cor de fundo rosa escuro (#84033b) e texto branco durante seleção.
 
  # 🏠 Página Principal
    - secao5 h1::first-letter
-     O que faz: aumenta a primeira letra dos títulos h1 dentro da seção 5.
+     -- O que faz: aumenta a primeira letra dos títulos h1 dentro da seção 5.
      Pseudo-elemento: ::first-letter
      Efeito: letra inicial maior (4vw), com pequeno espaçamento à direita.
    

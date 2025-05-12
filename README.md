@@ -109,6 +109,14 @@ Esta seção descreve todos os efeitos visuais aplicados no projeto, organizados
 - **Elemento:** `#container_info`
 - **Animação:** `@keyframes piscar`
 - **Efeito:** O elemento pulsa continuamente, alternando entre `scale(1.1)` e `scale(1)` a cada 2 segundos em um loop infinito.
+
+## 📖 Página de Catálogo
+### - Interação com os cartões do catálogo de vinhos
+- **Elemento:** `section .container .produto:hover`
+- **Efeitos:** aumenta o tamanhos dos cartões e adiciona bordas `transform: scale(1.03,1.03);  border: #84033b solid 3px;  transition: transform 0.3s;`
+### - Animação no título
+- **Elemento:** `section .tituloPrincipal h1`
+- **Animação:** `@keyframes aparecer`
 ---
 
 ## 👤 Nome dos Integrantes

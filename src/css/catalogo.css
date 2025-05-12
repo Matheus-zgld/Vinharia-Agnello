@@ -69,10 +69,18 @@ section .tituloPrincipal{
     width: 30vw;
     background-color: rgba(0, 0, 0, 0.889);
 }
-section h1{
+/* section h1{
     font-size: 3vw;
     text-align: center;
+} */
+section h1 {
+    font-size: 3vw;
+    text-align: center;
+    opacity: 0;
+
 }
+
+
 section .container{
     display: flex;
     flex-wrap: wrap;

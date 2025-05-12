@@ -66,3 +66,10 @@
     50% {transform: scale(1,1);}
     100% {transform: scale(1.1,1.1);}
 }
+
+/* Catalogo */
+section .container .produto:hover{
+    transform: scale(1.03,1.03);
+    border: #84033b solid 3px;
+    transition: transform 0.3s;
+}

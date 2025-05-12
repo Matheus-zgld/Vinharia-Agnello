@@ -9,7 +9,7 @@ body{
 /* header */
 header{
     width: 100%;
-    height: 7vh;
+    height: 10vh;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -44,19 +44,7 @@ header div a button{
     padding: 0.3vw 1vw;
     cursor: pointer;
 }
-/* o codigo em baixo serve para deixar igual aos outros sites */
-/* header div .btnLogin{
-    background-color: #84033b;
-    color: black;
-}
-header div .btnRegister:hover{
-    background-color: #84033b;
-    color: black;
-}
-header div .btnLogin:hover{
-    background-color: black;
-    color: #84033b;
-}  */
+
 .btn:hover{
     background-color: #84033b;
     color:black;

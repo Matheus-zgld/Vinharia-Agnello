@@ -73,7 +73,7 @@ section .container .produto:hover{
     border: #84033b solid 3px;
     transition: transform 0.3s;
 }
-section h1{
+section .tituloPrincipal h1{
     transform: translateY(-20px);
     animation: aparecer 2s ease-out forwards;
 }

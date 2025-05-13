@@ -95,11 +95,6 @@ Esta seção descreve todos os efeitos visuais aplicados no projeto, organizados
 #### Animação nas imagens
 - **Elemento:** `.primeira_coluna td:hover .table_img`
 - **Efeito:** Gira a imagem 360 graus ao passar o mouse, com transição de `0.4s`.
-- 
-## 👻 Sobre-nós
-- **Elemento:** `.primeira_coluna .img-sobre`
-- **Efeito:** Efeito visual de entrada `.img-sobre`
-
 
 #### Ampliação do texto
 - **Elemento:** `.primeira_coluna td:hover p`
@@ -114,6 +109,11 @@ Esta seção descreve todos os efeitos visuais aplicados no projeto, organizados
 - **Elemento:** `#container_info`
 - **Animação:** `@keyframes piscar`
 - **Efeito:** O elemento pulsa continuamente, alternando entre `scale(1.1)` e `scale(1)` a cada 2 segundos em um loop infinito.
+
+## 👻 Sobre-nós
+### - Animação de Entrada
+- **Elemento:** `.primeira_coluna .img-sobre`
+- **Efeito:** Efeito visual de entrada `.img-sobre`
 
 ## 📖 Página de Catálogo
 ### - Interação com os cartões do catálogo de vinhos

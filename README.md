@@ -95,6 +95,11 @@ Esta seção descreve todos os efeitos visuais aplicados no projeto, organizados
 #### Animação nas imagens
 - **Elemento:** `.primeira_coluna td:hover .table_img`
 - **Efeito:** Gira a imagem 360 graus ao passar o mouse, com transição de `0.4s`.
+- 
+## 👻 Sobre-nós
+- **Elemento:** `.primeira_coluna .img-sobre`
+- **Efeito:** Efeito visual de entrada `.img-sobre`
+
 
 #### Ampliação do texto
 - **Elemento:** `.primeira_coluna td:hover p`

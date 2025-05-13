@@ -110,6 +110,11 @@ Esta seção descreve todos os efeitos visuais aplicados no projeto, organizados
 - **Animação:** `@keyframes piscar`
 - **Efeito:** O elemento pulsa continuamente, alternando entre `scale(1.1)` e `scale(1)` a cada 2 segundos em um loop infinito.
 
+## 👻 Sobre-nós
+### - Animação de Entrada
+- **Elemento:** `.primeira_coluna .img-sobre`
+- **Efeito:** Efeito visual de entrada `.img-sobre`
+
 ## 📖 Página de Catálogo
 ### - Interação com os cartões do catálogo de vinhos
 - **Elemento:** `section .container .produto:hover`

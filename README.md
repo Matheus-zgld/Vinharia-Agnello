@@ -124,6 +124,16 @@ Esta seção descreve todos os efeitos visuais aplicados no projeto, organizados
 - **Animação:** `@keyframes aparecer`
 ---
 
+## 🖼️ Página Galeria
+### - Interação com as imagens da galeria
+- **Elemento:** article .galeria-img:hover
+- **Efeitos:** aumenta levemente o tamanho das imagens e altera a cor da borda transform: scale(1.05); border-color: yellow; transition: transform 0.3s, border-color 0.3s;
+
+### - Animação no título
+- ## Elemento: section .tituloPrincipal h1
+- ## Animação: @keyframes aparecer
+- ## Efeitos: o título desliza de cima para baixo e aparece suavemente transform: translateY(-20px → 0); opacity: 1; transition: 2s ease-out;
+
 ## 👤 Nome dos Integrantes
  - André Mateus Yoshimori
  - Eduardo Francisco Mauro Gonçalves

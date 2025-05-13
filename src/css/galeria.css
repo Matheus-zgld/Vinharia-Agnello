@@ -123,13 +123,6 @@ article img {
     border: 6px solid #84033b;
 }
 
-article img:hover {
-    border-color: yellow;
-    transform: scale(1.05);
-    transition: transform 0.3s, border-color 0.3s;
-}
-
-
 footer p{
     width: 80%;
 }

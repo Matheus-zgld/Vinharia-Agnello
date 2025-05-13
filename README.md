@@ -42,6 +42,11 @@ Esta seção descreve todos os efeitos visuais aplicados no projeto, organizados
 
 ## 🌐 Geral (Aplicado em todo o projeto)
 
+
+#### Animação dos botões de login
+
+Botões de login com animacao de tranformação
+
 ### - Seleção de texto
 
 - **Pseudo-elemento:** `::selection`

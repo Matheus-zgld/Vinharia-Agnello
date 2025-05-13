@@ -43,6 +43,25 @@
     transform: scale(1.1,1.1);
 }
 
+.header_btn {
+    transition: all 0.4s;
+}
+
+.header_btn:hover {
+    margin-right: 22px;
+    transform: scale(1.5,1.5);
+    margin-left: -120px;
+}
+
+.header_btn_lgn {
+    transition: all 0.4s;
+}
+
+.header_btn_lgn:hover{
+    transform: scale(1.5,1.5);
+    margin-right: 22px;
+}
+
 /*Assinaturas*/
 .primeira_coluna td:hover .table_img{
     transition: all 0.4s;

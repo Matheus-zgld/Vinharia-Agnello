@@ -76,33 +76,6 @@ Esta seção descreve todos os efeitos visuais aplicados no projeto, organizados
 - **Elemento:** `.secaoLista_img:hover`
 - **Efeito:** Move a imagem 20px para a direita com `transform: translate(20px)`
 
-## 🖼️ Galeria
-
-### - Efeito de Hover nas Imagens
-
-#### Transformação e Cor da Borda ao passar o mouse
-- **Elemento:** `.img-hover:hover`
-- **Efeitos:**
-  - Aplica uma transformação de escala (`scale(1.05)`) nas imagens.
-  - Muda a cor da borda para **amarelo**.
-  - Transição suave de **0.3s** tanto para a transformação quanto para a cor da borda.
-
-### - Animação de Títulos
-
-#### Animação de Aparição
-- **Elemento:** `.titulo-animado`
-- **Efeito:**
-  - O título começa com **opacidade** de **0** e é deslocado **20px** para cima.
-  - Com a animação, o título retorna à posição original (`translateY(0)`) e ganha **opacidade 1**.
-  - A animação dura **2s** com a curva de aceleração **ease-out** e ocorre de forma **sequencial**.
-
-### - Definição da Animação de Aparecimento
-
-#### Efeito de Aparecimento do Título
-- **Elemento:** `@keyframes aparecer`
-- **Efeito:**
-  - Quando a animação é executada, o título se move de volta para a posição original e fica visível (`opacity: 1`).
-
 ## 🔐 Página de Cadastro/Login
 
 ### - Estilização dos Campos de Input
@@ -149,7 +122,6 @@ Esta seção descreve todos os efeitos visuais aplicados no projeto, organizados
 ### - Animação no título
 - **Elemento:** `section .tituloPrincipal h1`
 - **Animação:** `@keyframes aparecer`
----
 
 ## 🖼️ Página Galeria
 ### - Interação com as imagens da galeria
